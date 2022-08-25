@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>AirsoftVm</title>
+    <meta
+      name="description"
+      content="Hola bienvenidos a Airsoft Villa Mercedes"
+    />
+    <link
+      rel="canonical"
+      href="https://FerLorenzo17.github.io/airsoft-vm-page/airsoftvm"
+    />
+    <link
+      rel="favicon"
+      href="https://FerLorenzo17.github.io/airsoft-vm-page/airsoftvm/assets/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://FerLorenzo17.github.io/airsoft-vm-page/airsoftvm/assets/favicon.png"
+    />
+    <meta
+      name="theme-color"
+      content="#a59f83
+    "
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" name="twitter:title" content="AirsoftVm" />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Hola bienvenidos a Airsoft Villa Mercedes"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="https://FerLorenzo17.github.io/airsoft-vm-page/airsoftvm/hero-image-home.jpg"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://FerLorenzo17.github.io/airsoft-vm-page/airsoftvm"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.svg" alt="logo" /></a>
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="game.html" target="">JUEGO</a>
+          <a href="event.html" target="">EVENTO</a>
+          <a href="registration.html" target="">INSCRIPCIÓN</a>
+          <a href="archive.html" target="">ARCHIVOS</a>
+          <a href="contact.html" target="">CONTACTO</a>
+        </nav>
+      </section>
+    </header>
+    <section id="inicio" class="home">
+      <article
+        class="hero-image"
+        style="
+          --hero-image: url('assets/hero-image-home.jpg');
+          --hero-attachment: fixed;
+        "
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h2
+              class="hero-image-tittle"
+              style="--hero-text-color: var(--white-alpha-color)"
+            >
+              Bienvenidos
+            </h2>
+            <a href="registration.html" class="btn box-shadow-1">INSCRIPCIÓN</a>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <main id="pagina" class="main">
+      <section id="Seccion-inicio" class="welcome-section">
+        <aside class="tittle"><h1>AIRSOFT VILLA MERCEDES</h1></aside>
+        <aside
+          class="home-banner-img"
+          style="--home-banner: url('assets/home-banner.jfif')"
+        ></aside>
+        <aside class="text-home">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+            nunc lacus, commodo nunc in vitae enim. Nulla faucibus sed mauris
+            amet neque id rhoncus, est tristique. Mattis nulla diam nibh fusce
+            montes, phasellus leo. Augue lacus vitae, mattis felis natoque
+            pellentesque massa. Egestas non mi at posuere. Congue mauris tellus
+            blandit nullam sem faucibus.
+          </p>
+        </aside>
+      </section>
+      <section id="Noticias" class="news">
+        <div class="container">
+          <div>
+            <h2 class="section-tittle">Titulo</h2>
+            <a href="news.html"
+              ><img class="news-img" src="assets/notice-img.jfif" alt="noticia"
+            /></a>
+          </div>
+          <div>
+            <h2 class="section-tittle">Titulo</h2>
+            <a href="news.html"
+              ><img class="news-img" src="assets/notice-img2.jpg" alt="noticia"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="Contacto" class="contact">
+        <div class="container">
+          <h2 class="section-tittle">Contacto</h2>
+          <form class="contact-form">
+            <input
+              type="text"
+              name="name"
+              placeholder=" Ingresa tu nombre *"
+              title="Nombre sólo acepta letras y espacios en blanco"
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder=" Ingresa tu correo *"
+              title="email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              required
+            />
+            <textarea
+              name="comments"
+              id=""
+              cols="50"
+              rows="10"
+              placeholder="Dejame tu comentario *"
+              required
+            ></textarea>
+            <div class="contact-form-loader text-center none">
+              <img src="assets/loader.svg" alt="Enviando.." />
+            </div>
+            <input class="btn" type="submit" value="ENVIAR" />
+          </form>
+          <article id="gracias" class="modal">
+            <div class="modal-content">
+              <article class="contact-form-response">
+                <img src="assets/contact-loader.png" alt="" />
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small
+        >Sitio diseñado por
+        <a
+          href="https://www.instagram.com/fer.lorenzo.9/"
+          target="_blank"
+          rel="noopener"
+          >@FerLorenzo</a
+        ></small
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
