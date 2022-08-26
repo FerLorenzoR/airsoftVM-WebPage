@@ -32,6 +32,167 @@
         </button>
      
     </header>
+    <main>
+      
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Ingresa tu email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Edad<span class="clue"></span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Edad"
+            required
+          />
+        </div>
+         <div class="form-group">
+          <label id="DNI-label" for="DNI"
+            >DNI</label
+          >
+          <input
+            type="number"
+            name="DNI"
+            id="DNI"
+            min="00000000"
+            max="99999999"
+            class="form-control"
+            placeholder="DNI"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="date-label" for="date"
+            >Fecha de nacimiento</label
+          >
+          <input
+            type="date"
+            name="date"
+            id="date-birth"
+            class="form-control"
+            placeholder="date"
+            required
+          />
+        </div>
+         <div class="form-group">
+          <label id="city-label" for="city">Ciudad de residencia</label>
+          <input
+            type="text"
+            name="city"
+            id="city"
+            class="form-control"
+            placeholder="Ingresa la Ciudad"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p>Talle de remera</p>
+          <select id="dropdown" name="clothing size" class="form-control" required>
+            <option disabled selected value>Seleccion el talle</option>
+            <option value="xs-clothing size">XS</option>
+            <option value="s-clothing size">S</option>
+            <option value="m-clothing size">M</option>
+            <option value="l-clothing size">L</option>
+            <option value="xl-clothing size">XL</option>
+            <option value="xxl-clothing size">IKKI</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>¿Perteneces a alguna comunidad de Airsoft?</p>
+          <label>
+            <input
+              name="user-community"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Si</label
+          >
+          <label>
+            <input
+              name="user-community"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />No</label
+          >
+
+          <label
+            ><input
+              name="user-community"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Que te importa</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Factor RH</p>
+          <select id="dropdown" name="blood-type" class="form-control" required>
+            <option disabled selected value>Tipo de sangre</option>
+            <option value="a+-blood">A+</option>
+            <option value="a--blood">A-</option>
+            <option value="b+-blood">B+</option>
+            <option value="b--blood">B-</option>
+            <option value="AB+-blood">AB+</option>
+            <option value="AB--blood">AB-</option>
+            <option value="o+-blood">O+</option>
+            <option value="o--blood">O-</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <p>¿Problemas Cardiacos?</p>
+          <label>
+            <input
+              name="user-community"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Si</label
+          >
+          <label>
+            <input
+              name="user-community"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />No</label
+          >
+        </div>
+
+      </form>
+    
+      </section>
+    </main>
 
     <footer class="footer">
       <small
@@ -47,3 +208,8 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- Sácale el número de registro
+Y si es socio de alguna comunidad
+Y agrégale un contacto de emergencia
+Nombre y número de telefono -->
