@@ -53,3 +53,5 @@
       });
   });
 })(document);
+
+/*******Archive Carousel *******/

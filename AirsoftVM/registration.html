@@ -46,7 +46,9 @@
             name="name"
             id="name"
             class="form-control"
-            placeholder="Ingresa tu nombre"
+            title="Nombre sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            placeholder="Ingresa tu Nombre"
             required
           />
         </div>
@@ -57,7 +59,9 @@
             name="lastname"
             id="lastname"
             class="form-control"
-            placeholder="Ingresa tu nombre"
+            title="Apellido sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            placeholder="Ingresa tu Apellido"
             required
           />
         </div>
@@ -68,7 +72,9 @@
             name="email"
             id="email"
             class="form-control"
-            placeholder="Ingresa tu email"
+            title="email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            placeholder="Ingresa tu Email"
             required
           />
         </div>
@@ -129,7 +135,7 @@
         <div class="form-group">
           <p>Talle de remera</p>
           <select id="dropdown" name="clothing size" class="form-control" required>
-            <option disabled selected value>Seleccion el talle</option>
+            <option disabled selected value>Seleccion el Talle</option>
             <option value="xs-clothing size">XS</option>
             <option value="s-clothing size">S</option>
             <option value="m-clothing size">M</option>
@@ -141,7 +147,7 @@
         <div class="form-group">
           <p>Factor RH</p>
           <select id="dropdown" name="blood-type" class="form-control" required>
-            <option disabled selected value>Tipo de sangre</option>
+            <option disabled selected value>Tipo de Sangre</option>
             <option value="a+-blood">A+</option>
             <option value="a--blood">A-</option>
             <option value="b+-blood">B+</option>
@@ -216,6 +222,7 @@
          <button type="submit" id="submit" class="submit-button">
             ENVIAR
           </button>
+          
       </form>
       </section>
     </div>
