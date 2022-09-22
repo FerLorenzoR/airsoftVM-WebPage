@@ -53,5 +53,16 @@
       });
   });
 })(document);
+// document.querySelectorAll(".modal-container a").forEach((el) => {
+//   el.addEventListener("mouseover", function (ev) {
+//     ev.stopPropagation();
+//     this.parentNode.classList.add("active");
+//   });
+// });
 
-/*******Archive Carousel *******/
+// document.querySelectorAll(".modal-container").forEach((el) => {
+//   el.addEventListener("mouseover", function (ev) {
+//     this.classList.remove("active");
+//     console.log("Click");
+//   });
+// });
